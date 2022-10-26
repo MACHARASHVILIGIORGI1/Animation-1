@@ -1,0 +1,29 @@
+.elementi{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    animation-name: myAnimation;
+    animation-iteration-count: infinite;
+    animation-duration: 3s; 
+}
+
+
+
+@keyframes myAnimation {
+    25%{
+        background-color: red;
+        margin-left: 200px;
+    }
+    50%{
+        background-color: blue;
+        margin-top: 200px;
+    }
+    75%{
+        background-color: green;
+        margin-right: 200px;
+    }
+    100%{
+        background-color: black;
+        margin-bottom: 200px;
+    }
+}
